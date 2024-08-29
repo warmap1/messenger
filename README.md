@@ -32,7 +32,7 @@
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/warmap1/messanger/
+   git clone https://github.com/warmap1/messenger.git
    ```
 
 2. Убедитесь, что у вас установлены все зависимости, необходимые для работы, такие как requests:
