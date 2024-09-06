@@ -47,7 +47,7 @@ def errors(choise, resp):
                 print(token)
                 print("Токен успешно сохранён")
             except:
-                print(f'Ошибка при сохранении токена. Пожалуйста, впишите следующий текст в token.tok:\n{resp.json()['token']}')
+                print(f'Ошибка при сохранении токена. Пожалуйста, впишите следующий текст в token.tok:\n{resp.json()["token"]}')
 
     elif choise == 3:
         if resp.status_code == 404 or resp.json()["status"] == 404:
